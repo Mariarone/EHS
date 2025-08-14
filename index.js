@@ -16,11 +16,11 @@ module.exports = async function (context, req) {
     const file = form.file;
 
     const credential = new CertificateCredential(
-      "YOUR_TENANT_ID",
-      "YOUR_CLIENT_ID",
+      "phinia.onmicrosoft.com",
+      "a560568c-73e3-499c-abfe-3f1b1523775c",
       {
-        certificatePath: "./YOUR_CERTIFICATE_NAME.pfx",
-        certificatePassword: "YOUR_CERTIFICATE_PASSWORD"
+        certificatePath: "C:\Users\mrone\Downloads\Corporate Web Apps Automation.pfx",
+    
       }
     );
 
